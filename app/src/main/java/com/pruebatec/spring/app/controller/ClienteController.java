@@ -20,7 +20,7 @@ public class ClienteController {
     @Autowired
     private ClienteService clienteService;
 
-// servicio 1 almacenar cliente en la base de datos
+// servicio 1 almacenar cliente en la base de datos, implementado haciendo push 1
 
     @PostMapping ("/guadarcliente")
     public ResponseEntity<Cliente> guardarCliente(@RequestBody Cliente cliente) {
