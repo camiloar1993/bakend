@@ -28,7 +28,7 @@ public class ClienteController {
         return ResponseEntity.ok(nuevoCliente);
     }
 
-//servicio 2 Ruta para obtener datos de clientes ordenados alfabéticamente
+//servicio 2 Ruta para obtener datos de clientes ordenados alfabéticamente implementado haciendo push 2
 
 @GetMapping("/clientes/orden_alfabetico")
 public List<Cliente> obtenerClientesOrdenados() {
