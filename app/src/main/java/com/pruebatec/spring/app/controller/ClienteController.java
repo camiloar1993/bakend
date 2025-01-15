@@ -35,7 +35,7 @@ public List<Cliente> obtenerClientesOrdenados() {
         return clienteService.obtenerClientesOrdenados();
     }
 
- //servicio 3 Ruta para obtener datos de clientes ordenados por edad
+ //servicio 3 Ruta para obtener datos de clientes ordenados por edad, implementado haciendo push 3
 
  @GetMapping("/clientes/ordenados_fecha")
  public List<Cliente_ORD_FC> obtenerClientesOrdenadosPorFechaNacimiento() {
