@@ -42,7 +42,7 @@ public List<Cliente> obtenerClientesOrdenados() {
      return clienteService.obtenerClientesOrdenadosPorFechaNacimiento();
  }
 
-  //servicio 4 Ruta para obtener la cantidad total de clientes y su promedio de edad
+  //servicio 4 Ruta para obtener la cantidad total de clientes y su promedio de edad, implementado haciendo push 3
 
   @GetMapping("/cliente/numero_promedio")
   public num_prom_clientes obtenerEstadisticasClientes() {
